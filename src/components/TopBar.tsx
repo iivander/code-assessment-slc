@@ -7,7 +7,7 @@ const TopBar = () => (
     >
         <nav className="h-16 flex justify-between items-center px-6" aria-label="Main Navigation">
             <Link href="/" className="text-2xl font-bold text-gray-800">
-                Solace Advocates
+                Solace
             </Link>
         </nav>
     </header>

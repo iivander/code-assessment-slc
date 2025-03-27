@@ -128,6 +128,9 @@ const MainPage = () => {
 
     return (
         <main className="m-6">
+            <h1 className="text-xl font-bold mb-4">
+                Advocates
+            </h1>
             <div className="rounded-box border bg-base-100">
                 <section className="mb-4 p-4 shadow-sm">
                     <div className="flex flex-row items-center gap-4">
@@ -146,7 +149,7 @@ const MainPage = () => {
                     </div>
                 </section>
                 <section
-                    className="overflow-x-auto h-[700px] mb-4"
+                    className="overflow-auto mb-4 h-[60vh]"
                     aria-label="Advocates data table"
                 >
                     <table className="table w-full">
